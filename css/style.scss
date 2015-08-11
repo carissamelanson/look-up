@@ -393,9 +393,8 @@ form{
 	margin-bottom: 20px;
 	-moz-box-sizing: border-box;
 	@include user-select(none);
+	padding: 10px;
 }
-
-
 }
 
 label h5{
