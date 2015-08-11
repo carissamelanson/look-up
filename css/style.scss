@@ -1,10 +1,6 @@
 @import 'reset';
-
 @import 'bourbon/bourbon';
 @import 'neat/neat';
-
-
-
 
 html {
   -webkit-box-sizing: border-box;
@@ -20,7 +16,6 @@ html {
   }
 
 
-
 /*GRID*/
 $grid-columns: 12 !default;
 $column: modular-scale(3, 1em, $golden) !default;
@@ -29,7 +24,6 @@ $gutter: modular-scale(1, 1em, $golden) !default;
 /*FONTS*/
 $rooney: 'rooney-sans',sans-serif;
 $brandon: 'brandon-grotesque',sans-serif;
-
 
 
 /*COLOR*/
@@ -393,9 +387,8 @@ form{
 	margin-bottom: 20px;
 	-moz-box-sizing: border-box;
 	@include user-select(none);
+	padding: 10px;
 }
-
-
 }
 
 label h5{

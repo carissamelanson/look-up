@@ -421,7 +421,8 @@ form input {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none; }
+  user-select: none;
+  padding: 10px; }
 
 label h5 {
   font-size: 1em;
