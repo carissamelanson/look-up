@@ -68,14 +68,14 @@ html {
 /*COLOR*/
 /*TYPOGRAPHY*/
 h1 {
-  font-family: "rooney-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 400;
   font-size: 3.0em;
   font-size: 48px;
   color: #f7f9f3; }
 
 h2 {
-  font-family: "brandon-grotesque", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 1.4em;
   font-size: 22px;
@@ -83,43 +83,43 @@ h2 {
   line-height: 1.3; }
 
 h3 {
-  font-family: "brandon-grotesque", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 2.0em;
-  font-size: 32px;
+  font-size: 30px;
   color: #0079a2;
   line-height: 1.2; }
 
 h4 {
-  font-family: "brandon-grotesque", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
-  font-size: 1.5em;
-  font-size: 24px;
+  font-size: 1.375em;
+  font-size: 22px;
   color: #666666;
   line-height: 1.6; }
 
 h5 {
-  font-family: "brandon-grotesque", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
-  font-size: 1.25em;
-  font-size: 20px;
+  font-size: 1.125em;
+  font-size: 18px;
   color: #f8cb69;
   line-height: 1.6; }
 
 h6 {
-  font-family: "brandon-grotesque", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
-  font-size: 1.2em;
-  font-size: 19px;
+  font-size: 1.125em;
+  font-size: 18px;
   color: #0079a2;
   line-height: 1.6; }
 
 p {
-  font-family: "brandon-grotesque", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 1.25em;
-  font-size: 20px;
-  line-height: 1.6;
+  font-size: 18px;
+  line-height: 1.8;
   color: #374952;
   margin-bottom: 20px; }
 
@@ -173,7 +173,7 @@ li .icon {
 
 .nav-icons a {
   font-size: 0.6em;
-  font-family: "brandon-grotesque", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   text-align: center;
   color: #374952; }
@@ -204,7 +204,7 @@ a:hover {
   margin-top: 10px;
   margin-left: 10px;
   box-shadow: #c69a42 1px 1px, #f9e4b9 -1px -1px;
-  padding: 4px; }
+  padding: 5px; }
 
 .log-in-btn, .pass-btn {
   background: #374952; }
@@ -469,7 +469,7 @@ label h5 {
     line-height: 2em;
     list-style: none; }
   .search-tools label {
-    font-family: "brandon-grotesque", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 1.2em;
     line-height: 1.4;
     color: #374952;
@@ -530,7 +530,7 @@ label h5 {
       .search-tools .filter > div:focus, .search-tools .filter > div:hover {
         border-color: #c3c3c3; }
       .search-tools .filter > div label {
-        font-family: "brandon-grotesque", sans-serif;
+        font-family: "Raleway", sans-serif;
         cursor: pointer;
         font-weight: 400;
         margin-bottom: 0;
@@ -560,8 +560,8 @@ label h5 {
       padding: 0.5px;
       text-align: center;
       border-radius: 5px;
-      font-family: "brandon-grotesque", sans-serif;
-      font-size: 1.5em;
+      font-family: "Raleway", sans-serif;
+      font-size: 1.125em;
       font-weight: 400;
       color: #374952; }
 
@@ -574,7 +574,7 @@ label h5 {
   width: 140px;
   float: left;
   margin-bottom: 40px;
-  margin-right: 50px; }
+  margin-right: 45px; }
   .sm-profile:last-child {
     margin-right: 0; }
 
@@ -658,7 +658,7 @@ label h5 {
 
 .message-box li,
 .skills-box {
-  font-family: "brandon-grotesque", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1em;
   line-height: 2;
   float: left;
@@ -757,7 +757,7 @@ html, body {
   margin-right: 0px; }
 
 .footer-logo li {
-  font-family: "brandon-grotesque", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 0.875em;
   color: #f7f9f3; }
   .footer-logo li a {
@@ -771,9 +771,9 @@ html, body {
     line-height: 1.4; }
 
   h5 {
-    font-family: "brandon-grotesque", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 400;
-    font-size: 1.4em;
+    font-size: 1.125em;
     color: #f8cb69;
     line-height: 1.6; }
 
@@ -806,7 +806,7 @@ html, body {
 
   .nav-icons a {
     font-size: 0.825em;
-    font-family: "brandon-grotesque", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 400;
     text-align: center;
     color: #374952; }
@@ -891,7 +891,7 @@ html, body {
       margin-bottom: 10px; }
 
   .footer-logo li {
-    font-family: "brandon-grotesque", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 1.2em;
     color: #f7f9f3; }
     .footer-logo li a {
@@ -900,8 +900,8 @@ html, body {
 /* LARGE MEDIA QUERY */
 @media screen and (min-width: 1200px) {
   h2 {
-    font-size: 2.2em;
-    line-height: 1.4; }
+    font-size: 2em;
+    line-height: 1.6; }
 
   .sub-nav-wrapper {
     padding-left: 30px;

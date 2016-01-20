@@ -22,8 +22,10 @@ $column: modular-scale(3, 1em, $golden) !default;
 $gutter: modular-scale(1, 1em, $golden) !default;
 
 /*FONTS*/
-$rooney: 'rooney-sans',sans-serif;
-$brandon: 'brandon-grotesque',sans-serif;
+// $rooney: 'rooney-sans',sans-serif;
+// $brandon: 'brandon-grotesque',sans-serif;
+$replacement: 'Raleway', sans-serif;
+$logo: 'Nunito', sans-serif;
 
 
 /*COLOR*/
@@ -37,7 +39,7 @@ $sky: #dcf4f3;
 
 /*TYPOGRAPHY*/
 h1{
-	font-family: $rooney;
+	font-family: $logo;
 	font-weight: 400;
 	font-size: 3.0em;
 	font-size: 48px;
@@ -46,7 +48,7 @@ h1{
 }
 
 h2{
-	font-family: $brandon;
+	font-family: $replacement;
 	font-weight: 700;
 	font-size: 1.4em;
 	font-size: 22px;
@@ -55,47 +57,47 @@ h2{
 }
 
 h3{
-	font-family: $brandon;
+	font-family: $replacement;
 	font-weight: 700;
 	font-size: 2.0em;
-	font-size: 32px;
+	font-size: 30px;
 	color: $blue;
 	line-height: 1.2;
 }
 
 h4{
-	font-family: $brandon;
+	font-family: $replacement;
 	font-weight: 400;
-	font-size: 1.5em;
-	font-size: 24px;
+	font-size: 1.375em;
+	font-size: 22px;
 	color: #666666;
 	line-height: 1.6;
 }
 
 
 h5{
-	font-family: $brandon;
+	font-family: $replacement;
 	font-weight: 400;
-	font-size: 1.25em;
-	font-size: 20px;
+	font-size: 1.125em;
+	font-size: 18px;
 	color: $gold;
 	line-height: 1.6;
 }
 
 h6{
-	font-family: $brandon;
+	font-family: $replacement;
 	font-weight: 400;
-	font-size: 1.2em;
-	font-size: 19px;
+	font-size: 1.125em;
+	font-size: 18px;
 	color: $blue;
 	line-height: 1.6;
 }
 p{
-	font-family: $brandon;
+	font-family: $replacement;
 	font-weight: 400;
 	font-size: 1.25em;
-	font-size: 20px;
-	line-height: 1.6;
+	font-size: 18px;
+	line-height: 1.8;
 	color: $dkblue;
 	margin-bottom: 20px;
 
@@ -163,7 +165,7 @@ li{
 }
 .nav-icons a{
 	font-size: 0.6em;
-	font-family: $brandon;
+	font-family: $replacement;
 	font-weight: 400;
 	text-align: center;
 	color: $dkblue;
@@ -194,7 +196,7 @@ a:hover{color:$gold;}
 	margin-top: 10px;
 	margin-left: 10px;
 	box-shadow: #c69a42 1px 1px, #f9e4b9 -1px -1px;
-	padding: 4px;
+	padding: 5px;
 }
 
 .log-in-btn,.pass-btn{
@@ -432,7 +434,7 @@ label h5{
   }
 
   label {
-  	font-family: $brandon;
+  	font-family: $replacement;
   	font-size: 1.2em;
   	line-height: 1.4;
   	color: $dkblue;
@@ -479,7 +481,7 @@ label h5{
       }
 
       label {
-      	font-family: $brandon;
+      	font-family: $replacement;
         cursor: pointer;
         font-weight: 400;
         margin-bottom: 0;
@@ -523,8 +525,8 @@ label h5{
       padding: 0.5px;
       text-align: center;
       border-radius: 5px;
-      font-family: $brandon;
-      font-size: 1.5em;
+      font-family: $replacement;
+      font-size: 1.125em;
       font-weight: 400;
       color: $dkblue;
     }
@@ -537,7 +539,7 @@ label h5{
 	width: 140px;
 	float: left;
 	margin-bottom: 40px;
-	margin-right: 50px;
+	margin-right:45px;
 
 
 }
@@ -601,7 +603,7 @@ label h5{
 }
 .message-box li,
 .skills-box{
-	font-family: $brandon;
+	font-family: $replacement;
 	font-size: 1em;
 	line-height: 2;
 	float: left;
@@ -703,7 +705,7 @@ html, body {
  }
  .footer-logo{
  	li{
- 		font-family: $brandon;
+ 		font-family: $replacement;
  		font-size: 0.875em;
  		color: $white;
 
@@ -723,9 +725,9 @@ html, body {
 }
 
 h5{
-	font-family: $brandon;
+	font-family: $replacement;
 	font-weight: 400;
-	font-size: 1.4em;
+	font-size: 1.125em;
 	color: $gold;
 	line-height: 1.6;
 }
@@ -772,7 +774,7 @@ li{
 }
 .nav-icons a{
 	font-size: 0.825em;
-	font-family: $brandon;
+	font-family: $replacement;
 	font-weight: 400;
 	text-align: center;
 	color: $dkblue;
@@ -848,7 +850,7 @@ li{
  }
  .footer-logo{
  	li{
- 		font-family: $brandon;
+ 		font-family: $replacement;
  		font-size: 1.2em;
  		color: $white;
 
@@ -865,8 +867,8 @@ li{
 @media screen and(min-width: 1200px){
 
 	h2{
-	font-size: 2.2em;
-	line-height: 1.4;
+	font-size: 2em;
+	line-height: 1.6;
 }
 .sub-nav-wrapper{
 	padding-left: 30px;
